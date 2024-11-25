@@ -31,7 +31,7 @@ def main():
                         if row[0] == "Mtr_Version":
                             continue
 
-                        # remove mtr version from rows
+                        # remove Mtr_Version column
                         row.pop(0)
 
                         csv_writer.writerow(row)
